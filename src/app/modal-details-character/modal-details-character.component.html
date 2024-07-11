@@ -1,0 +1,13 @@
+<div class="card">
+  <img class="card-img-top" alt="Card img cap" src={{character.image}}>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item" mat-dialog-content>Name: {{character.name}}</li>
+    <li class="list-group-item" mat-dialog-content>Status: {{character.status}}</li>
+    <li class="list-group-item" mat-dialog-content>Species: {{character.species}}</li>
+    <li class="list-group-item" mat-dialog-content>Gender: {{character.gender}}</li>
+    <li class="list-group-item" mat-dialog-content>Origin: {{character.origin.name}}</li>
+    <li class="list-group-item text-center" mat-actions>
+      <button class="btn btn-danger" mat-button (click)="onClickClose()">Close</button>
+    </li>
+  </ul>
+</div>

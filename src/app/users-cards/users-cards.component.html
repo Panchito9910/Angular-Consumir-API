@@ -1,0 +1,9 @@
+<div class="card">
+    <img class="card-img-top" alt="Card img cap" src={{character.image}}>
+    <ul class="list-group list-group-flush text-center">
+        <li class="list-group-item">{{character.name}}</li>
+        <li class="list-group-item">
+            <button mat-button (click)="openModalDetailsCharacter(character)" class="btn btn-info">More info</button>
+        </li>
+    </ul>
+</div>
